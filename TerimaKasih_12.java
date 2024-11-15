@@ -5,5 +5,10 @@ public class TerimaKasih_12{
         }
         public static void main(String[] args){
             UcapanTerimaKasih();
+            String ucapan = "Terima kasih Pak... Bu... Semoga sehat selalu";
+            UcapanTambahan(ucapan);
+        }
+        public static void UcapanTambahan(String ucapan){
+            System.out.println(ucapan);
         }
 }
